@@ -157,8 +157,8 @@
                     <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
                 </button>
 
-                    <!-- Carousel Inner Content -->
-                <div class="carousel-inner flex gap-8 p-4 md:p-8 cursor-grab w-full transition-transform duration-400 ease-in-out" style="transform: translateX(0px);">
+                <!-- Carousel Inner Content (Now Scrolls Horizontally on Mobile) -->
+                <div class="carousel-inner flex gap-8 p-4 md:p-8 w-full transition-transform duration-400 ease-in-out lg:justify-center overflow-x-auto overscroll-x-contain">
     
                     <!-- Item 1 (Cake 7 Image: Tiered, Decorated Cake) -->
                     <div class="carousel-item flex-shrink-0 w-80 md:w-[calc(33.333%-1.333rem)] bg-offwhite rounded-xl shadow-2xl hover-lift p-4" role="group" aria-label="Slide 1 of 3">
@@ -324,4 +324,5 @@
     <!-- Deferred JS Loading -->
     <script src="assets/js/logic.js"></script>
 </body>
+
 </html>
